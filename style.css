@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    
+    background-color: rgb(241, 245, 248);
+    font-family: "Open Sans",sans-serif;
+}
+section {
+    max-width: 1170px;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.section-right  {
+    padding: 24px;
+}
+.section-right .descreption h1 {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    margin-bottom: 8px;
+    color: rgb(26, 106, 162);
+} 
+.descreption h3 {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    max-width: 88ch;
+}
+
+.descreption p {
+    color: #82B3D5;
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 80ch;
+}
+
+.count-down {
+    display: flex;
+    align-items: center;
+    
+    gap: 24px;
+    
+}
+.count-down .sayac {
+    color: white;
+    background-color: rgb(16, 42, 66);
+    padding: 16px;
+
+
+}
+.sayac h2 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.sayac h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
