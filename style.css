@@ -7,6 +7,7 @@ img {
     width: 100%;
     object-fit: cover;
     display: block;
+    
 }
 a {
     text-decoration: none;
@@ -32,9 +33,13 @@ section {
     
 }
 
+section > * {
+    flex: 1;
+} 
 
 .section-right  {
     padding: 24px;
+    
 }
 .section-right .descreption h1 {
     text-transform: uppercase;
@@ -81,4 +86,22 @@ section {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
+}
+.finished {
+    color: rgb(16, 42, 66);
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+@media (max-width: 676px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-right {
+        align-items: center;
+        text-align: center;
+    }
+    
 }
